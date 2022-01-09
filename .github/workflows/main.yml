@@ -40,5 +40,5 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "gcalvocr-node-poc" #Must be unique in Heroku
-          heroku_email: "gabriel.calvo.vargas"
+          heroku_app_name: "gcalvocr-node-poc" # Must be unique in Heroku
+          heroku_email: "gabriel.calvo.vargas@gmail.com"
