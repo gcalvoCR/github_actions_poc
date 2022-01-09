@@ -1,0 +1,28 @@
+{
+  "name": "github_actions_poc",
+  "version": "1.0.0",
+  "description": "# CI/CD",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "test": "jest src/app.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcalvoCR/github_actions_poc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gcalvoCR/github_actions_poc/issues"
+  },
+  "homepage": "https://github.com/gcalvoCR/github_actions_poc#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "supertest": "^6.1.6"
+  }
+}
